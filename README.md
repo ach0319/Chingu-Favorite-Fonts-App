@@ -14,3 +14,5 @@ ToDoList
 
 - Responsive Web Design
 - Working Search Bar
+
+<a href="file:///C:/Users/achri/OneDrive/Desktop/Coding%20Projects/Portfolio/Chingu%20Favorite%20Fonts%20Application/index.html">Live Preview</a>
