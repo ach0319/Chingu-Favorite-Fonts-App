@@ -1,0 +1,128 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+</head>
+
+<body>
+  <div id="header">
+    <h1 class="sitename"><b>Google</b> Fonts</h1>
+  </div>
+  <div id="nav">
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="">CATALOG</a></li>
+        <li><a class="nav-link" href="">FEATURED</a></li>
+        <li><a class="nav-link" href="">ARTICLES</a></li>
+        <li><a class="nav-link" href="">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <hr>
+
+  <div class="searchbar">
+
+    <input id="fontsearch" type="text" placeholder="Search fonts">
+    <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
+
+    <div class="dropdown">
+      <button class="dropbtn"><a href=""></a><b>20px</b></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#" id="smallertext" onclick="smallest()">20px</a>
+        <a href="#" id="smalltext" onclick="small()">24px</a>
+        <a href="#" id="middletext" onclick="middle()">32px</a>
+        <a href="#" id="largetext" onclick="largest()">40px</a>
+      </div>
+    </div>
+
+    <button id="darkmode" class="dark" onclick="darkFunction();"></button>
+    <button id="lightmode" class="light" onclick="lightFunction();"></button>
+    <button class="btnactive" onclick="gridView()"><img src="https://cdn0.iconfinder.com/data/icons/rounded-basics/24/svg-rounded_grid-512.png" alt="grid image" height="25" width="25"></button>
+    <button class="btn" onclick="listView()"><img src="https://static.thenounproject.com/png/77942-200.png" alt="list view" width="25" height="25"></button>
+    <button class="restore" onClick="history.go(0);"><img src="https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png" alt="image of an arrow in a circle" width="20" height="20"></button>
+  </div>
+  <div id="font-grid">
+    <div id="century" class="grid">
+      <label>Century Gothic</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font1" placeholder="Sample Text" rows="4" cols = "12"readonly disabled> Sample Text </textarea>
+
+    </div>
+    <div id="franklin" class="grid">
+      <label>Franklin Gothic Medium</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font2" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
+    </div>
+    <div id="bodoni" class="grid">
+      <label>Bodoni MT</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font3" placeholder="Sample Text" rows="4" cols = "12" readonly disabled>Sample Text</textarea>
+
+    </div>
+    <div id="rockwell" class="grid">
+      <label>Rockwell</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font4" placeholder="Sample Text" rows="4" cols = "12" readonly disabled>Sample Text</textarea>
+
+    </div>
+    <div id="arial" class="grid">
+      <label>Arial Black</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font6" placeholder="Sample Text" rows="4" cols = "12" readonly disabled>Sample Text</textarea>
+
+    </div>
+    <div id="ink" class="grid">
+      <label>Ink Free</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font7" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
+
+    </div>
+    <div id="lucida" class="grid">
+      <label>Lucida Handwriting</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font8" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
+    </div>
+    <div id="goudy" class="grid">
+      <label>Goudy Old Style</label>
+      <button class="addon">
+        <div class="circle"></div>
+      </button>
+      <br>
+      <textarea class="sample" id="font9" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
+    </div>
+  </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="script.js"></script>
+</body>
+<footer>
+  <div id="footer">
+    <p class="devinfo">coded by achristie| 2020 | Chingu Solo Project</p>
+  </div>
+
+</footer>
+
+</html>
