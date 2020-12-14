@@ -14,5 +14,5 @@ ToDoList
 
 - Responsive Web Design
 - Working Search Bar
-
+<img src="Screenshot(1).png">
 <a href="https://favorite-fonts-application.herokuapp.com/">Live Preview</a>
