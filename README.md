@@ -14,5 +14,7 @@ ToDoList
 
 - Responsive Web Design
 - Working Search Bar
+Try this markdown:
 
-<a href="file:///C:/Users/achri/OneDrive/Desktop/Coding%20Projects/Portfolio/Chingu%20Favorite%20Fonts%20Application/index.html">Live Preview</a>
+![alt text](https://github.com/ach0319/Chingu-Favorite-Fonts-App/blob/master/Screenshot%20(1).png)
+<a href="https://favorite-fonts-application.herokuapp.com/">Live Preview</a>
