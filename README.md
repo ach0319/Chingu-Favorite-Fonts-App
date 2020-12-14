@@ -14,5 +14,8 @@ ToDoList
 
 - Responsive Web Design
 - Working Search Bar
-<img src="Screenshot(1).png">
+Try this markdown:
+
+
+![alt text](https://github.com/[ach0319]/[Screenshot(1).png]/blob/[master]/image.jpg?raw=true)
 <a href="https://favorite-fonts-application.herokuapp.com/">Live Preview</a>
