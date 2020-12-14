@@ -71,18 +71,6 @@
     color: white;
   }
   
-  .light-mode {
-    background-color: white;
-    color: black;
-  }
-  
-  .light {
-    background-color: white;
-    padding: 6px;
-    border-radius: 20px;
-    margin-bottom: 0px;
-    cursor: pointer;
-  }
   /* font size changer */
   .dropbtn {
     background-color: white;
@@ -227,6 +215,7 @@
   textarea {
     resize: initial;
     overflow: auto;
+    width: 275px;
   }
   
   #font1::placeholder {

@@ -80,10 +80,6 @@ function typesomething() {
     document.body.classList.toggle("dark-mode");
   }
   
-  function lightFunction() {
-    document.body.classList.toggle("light-mode");
-  }
-  
   /* list-grid view */
   function listView() {
     document.getElementById("font-grid").style.gridTemplateColumns = "5000px";
@@ -113,3 +109,4 @@ function typesomething() {
     document.documentElement.scrollTop = 0;
   }
   
+
