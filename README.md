@@ -16,6 +16,5 @@ ToDoList
 - Working Search Bar
 Try this markdown:
 
-
-![alt text](https://github.com/[ach0319]/[Screenshot(1).png]/blob/[master]/image.jpg?raw=true)
+![alt text](https://github.com/ach0319/Chingu-Favorite-Fonts-App/blob/master/Screenshot%20(1).png)
 <a href="https://favorite-fonts-application.herokuapp.com/">Live Preview</a>
