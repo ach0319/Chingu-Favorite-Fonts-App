@@ -152,6 +152,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 75px;
   }
+
+  #font-grid a {
+    text-decoration: none;
+    color: black;
+  }
 /* textarea styles */
   #font1 {
     font-family: Century Gothic;

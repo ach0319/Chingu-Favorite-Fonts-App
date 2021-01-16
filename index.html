@@ -26,7 +26,7 @@
   <hr>
 
   <div class="searchbar">
-      <input id="fontsearch" type="text" placeholder="Search fonts">
+      <input id="fontsearch" type="text" onkeyup = "myFunction()" placeholder="Search fonts">
      <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
 
       <div class="dropdown">
@@ -46,7 +46,7 @@
   </div>
   <div id="font-grid">
     <div id="century" class="grid">
-      <label>Century Gothic</label>
+      <label id="label-search"><a href=''>Century Gothic</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -55,7 +55,7 @@
 
     </div>
     <div id="franklin" class="grid">
-      <label>Franklin Gothic Medium</label>
+      <label id="label-search"><a href = ''>Franklin Gothic Medium</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -63,7 +63,7 @@
       <textarea class="sample" id="font2" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
     </div>
     <div id="bodoni" class="grid">
-      <label>Bodoni MT</label>
+      <label id="label-search"><a href = ''>Bodoni MT</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -72,7 +72,7 @@
 
     </div>
     <div id="rockwell" class="grid">
-      <label>Rockwell</label>
+      <label id="label-search"><a href = ''>Rockwell</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -81,7 +81,7 @@
 
     </div>
     <div id="arial" class="grid">
-      <label>Arial Black</label>
+      <label id="label-search"><a href = ''>Arial Black</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -90,7 +90,7 @@
 
     </div>
     <div id="ink" class="grid">
-      <label>Ink Free</label>
+      <label id="label-search"><a href = ''>Ink Free</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -99,7 +99,7 @@
 
     </div>
     <div id="lucida" class="grid">
-      <label>Lucida Handwriting</label>
+      <label id="label-search"><a href = ''>Lucida Handwriting</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
@@ -107,7 +107,7 @@
       <textarea class="sample" id="font8" placeholder="Sample Text" rows="4" cols="12" readonly disabled>Sample Text</textarea>
     </div>
     <div id="goudy" class="grid">
-      <label>Goudy Old Style</label>
+      <label id="label-search"><a href= ''>Goudy Old Style</a></label>
       <button class="addon">
         <div class="circle"></div>
       </button>
