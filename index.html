@@ -26,24 +26,23 @@
   <hr>
 
   <div class="searchbar">
+      <input id="fontsearch" type="text" placeholder="Search fonts">
+     <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
 
-    <input id="fontsearch" type="text" placeholder="Search fonts">
-    <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
-
-    <div class="dropdown">
-      <button class="dropbtn"><a href=""></a><b>20px</b></button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#" id="smallertext" onclick="smallest()">20px</a>
-        <a href="#" id="smalltext" onclick="small()">24px</a>
-        <a href="#" id="middletext" onclick="middle()">32px</a>
-        <a href="#" id="largetext" onclick="largest()">40px</a>
-      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><a href=""></a><b>20px</b></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#" id="smallertext" onclick="smallest()">20px</a>
+            <a href="#" id="smalltext" onclick="small()">24px</a>
+            <a href="#" id="middletext" onclick="middle()">32px</a>
+            <a href="#" id="largetext" onclick="largest()">40px</a>
+          </div>
     </div>
 
-    <button id="darkmode" class="dark" onclick="darkFunction();"></button>
-    <button class="btnactive" onclick="gridView()"><img src="https://cdn0.iconfinder.com/data/icons/rounded-basics/24/svg-rounded_grid-512.png" alt="grid image" height="25" width="25"></button>
-    <button class="btn" onclick="listView()"><img src="https://static.thenounproject.com/png/77942-200.png" alt="list view" width="25" height="25"></button>
-    <button class="restore" onClick="history.go(0);"><img src="https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png" alt="image of an arrow in a circle" width="20" height="20"></button>
+      <button id="darkmode" class="dark" onclick="darkFunction();"></button>
+      <button class="btnactive" onclick="gridView()"><img src="https://cdn0.iconfinder.com/data/icons/rounded-basics/24/svg-rounded_grid-512.png" alt="grid image" height="25" width="25"></button>
+      <button class="btn" onclick="listView()"><img src="https://static.thenounproject.com/png/77942-200.png" alt="list view" width="25" height="25"></button>
+      <button class="restore" onClick="history.go(0);"><img src="https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png" alt="image of an arrow in a circle" width="20" height="20"></button>
   </div>
   <div id="font-grid">
     <div id="century" class="grid">

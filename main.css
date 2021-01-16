@@ -42,7 +42,7 @@
     margin-left: 30px;
     margin-bottom: 20px;
     border: 1px solid gray;
-    border-radius: 25px;
+    border-radius: 25px;  
   }
   /* search box */
   #fontsearch {
@@ -149,7 +149,7 @@
   /* styling font grids */
   #font-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 75px;
   }
 /* textarea styles */
@@ -158,28 +158,32 @@
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
   #font2 {
     font-family: Franklin Gothic Medium;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
   #font3 {
     font-family: Bodoni MT;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
   #font4 {
     font-family: Rockwell;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
 
   #font6 {
@@ -187,35 +191,40 @@
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
+
   }
   #font7 {
     font-family: Ink Free;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
   #font8 {
     font-family: Lucida Handwriting;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
   #font9 {
     font-family: Goudy Old Style;
     border: none;
     font-weight: bold;
     color: black;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
   }
 
   
   textarea {
     resize: initial;
     overflow: auto;
-    width: 275px;
+    width: 100%;;
   }
   
   #font1::placeholder {
