@@ -267,40 +267,11 @@
   }
   
 /* individual font grid design */
-  #century {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #franklin {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #bodoni {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #rockwell {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  
-  #arial {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #ink {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #lucida {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
-  #goudy {
-    border-top: 1px solid gray;
-    width: 275px;
-  }
 
+.grid {
+  border-top: 1px solid gray;
+  width: 275px;
+}
   
   label {
     font-size: 20px;
