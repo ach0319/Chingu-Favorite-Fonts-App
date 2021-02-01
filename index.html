@@ -10,39 +10,50 @@
 </head>
 
 <body>
-  <div id="header">
-    <h1 class="sitename"><b>Google</b> Fonts</h1>
-  </div>
-  <div id="nav">
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="">CATALOG</a></li>
-        <li><a class="nav-link" href="">FEATURED</a></li>
-        <li><a class="nav-link" href="">ARTICLES</a></li>
-        <li><a class="nav-link" href="">ABOUT</a></li>
-      </ul>
-    </nav>
-  </div>
-  <hr>
-
-  <div class="searchbar">
-      <input id="fontsearch" type="text" onkeyup="myFunction()" placeholder="Search fonts">
-     <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
-
-      <div class="dropdown">
-        <button class="dropbtn"><a href=""></a><b>20px</b></button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#" id="smallertext" onclick="smallest()">20px</a>
-            <a href="#" id="smalltext" onclick="small()">24px</a>
-            <a href="#" id="middletext" onclick="middle()">32px</a>
-            <a href="#" id="largetext" onclick="largest()">40px</a>
-          </div>
+    <div class="grid-container-two">
+     <div id="header" class="grid-one">
+        <h1 class="sitename"><b>Google</b> Fonts</h1>
+      </div>
+      <div id="nav" class="grid-two">
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="">CATALOG</a></li>
+            <li><a class="nav-link" href="">FEATURED</a></li>
+            <li><a class="nav-link" href="">ARTICLES</a></li>
+            <li><a class="nav-link" href="">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-
+  <hr>
+  <div class="grid-container">
+    <div class="font">
+      <input id="fontsearch" type="text" onkeyup="myFunction()" placeholder="Search fonts">
+    </div>
+    <div class="text">
+     <input id="textInput" oninput="typesomething()" type="text" placeholder="Type something">
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><a href=""></a><b>20px</b></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" id="smallertext" onclick="smallest()">20px</a>
+          <a href="#" id="smalltext" onclick="small()">24px</a>
+          <a href="#" id="middletext" onclick="middle()">32px</a>
+          <a href="#" id="largetext" onclick="largest()">40px</a>
+        </div>
+    </div>
+    <div class="button1">
       <button id="darkmode" class="dark" onclick="darkFunction();"></button>
+    </div>
+    <div class="button2">
       <button class="btnactive" onclick="gridView()"><img src="https://cdn0.iconfinder.com/data/icons/rounded-basics/24/svg-rounded_grid-512.png" alt="grid image" height="25" width="25"></button>
+    </div>
+    <div class="button3">
       <button class="btn" onclick="listView()"><img src="https://static.thenounproject.com/png/77942-200.png" alt="list view" width="25" height="25"></button>
+    </div>
+    <div class="button4">
       <button class="restore" onClick="history.go(0);"><img src="https://cdn0.iconfinder.com/data/icons/essentials-solid/100/Refresh-512.png" alt="image of an arrow in a circle" width="20" height="20"></button>
+    </div>
   </div>
   <div id="font-grid">
     <div id="font-section" class="grid">

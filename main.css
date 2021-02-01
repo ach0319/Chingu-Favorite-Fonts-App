@@ -1,8 +1,22 @@
 /* styling header */
+.grid-one {
+  grid-area: header;
+}
+
+.grid-two {
+  grid-area: nav;
+}
+
+.grid-container-two {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas:
+   'header nav';
+  align-items: center;
+}
 #header {
     color: gray;
-    top: 0;
-    left: 0;
+    float: left;
   }
   
   .sitename {
@@ -10,16 +24,15 @@
   }
   /* styling nav bar */
   #nav-bar {
-    position: absolute;
-    top: 0;
+    position: relative;
     right: 0;
+  
   }
   
   li {
     float: left;
     list-style-type: none;
     margin-left: 20px;
-    margin-top: 5px;
   }
   
   .nav-link {
@@ -37,35 +50,70 @@
     border-width: 2px;
   }
   
-  .searchbar {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    border: 1px solid gray;
-    border-radius: 25px;  
-    width: 100%
+  .font {
+    grid-area: font;
   }
+
+  .text {
+    grid-area: inputtext;
+  }
+
+  .dropdown{
+    grid-area: drpdwn;
+  }
+
+  .button1 {
+    grid-area: dark;
+  }
+
+  .button2 {
+    grid-area: gridview;
+  }
+
+  .button3 {
+    grid-area: list;
+  }
+
+  .button4 {
+    grid-area: restore;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat (1, 1fr);
+    grid-template-areas:
+     'font inputtext drpdwn dark gridview list restore';
+    margin-bottom: 3%;
+    margin-top: 3%;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+   }
   /* search box */
   #fontsearch {
     margin-left: 20px;
     border: none;
-    width: 17%;
+    width: 90%;
+    padding: 5%;
+
   }
   /* type something */
   #textInput {
     margin-left: 5px;
     border: none;
     border-left: 1px solid gray;
-    width: 17%;
+    width: 90%;
+    padding: 5%;
+
   }
   /* light/dark mode */
   .dark {
     background-color: black;
     padding: 6px;
     border-radius: 20px;
-    margin-bottom: 0px;
-    margin-left: 10%;
+    float: right;
     cursor: pointer;
+
   }
   .dark-mode {
     background-color: black;
@@ -81,6 +129,7 @@
     display: inline;
     margin-bottom: 0px;
     cursor: pointer;
+    width: 75%;
   }
   
   .dropdown {
@@ -121,7 +170,8 @@
     background-color: white;
     cursor: pointer;
     position: relative;
-    bottom: -4px;
+    float: left;
+    
   }
   
   .btn:hover {
@@ -131,29 +181,31 @@
   .btnactive {
     background-color: white;
     color: white;
-    margin-left: 200px;
-    margin-bottom: -6px;
     border: none;
     position: relative;
-    bottom: -4px;
     cursor: pointer;
+    float: right;
   }
   /* refresh button */
   .restore {
-    margin-left: 270px;
+    float: right;
     border: none;
     background-color: white;
     position: relative;
-    bottom: -3px;
     cursor: pointer;
   }
   /* styling font grids */
+  @media screen and (min-width: 1135px) {
   #font-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 75px;
   }
 
+  .grid-1 {
+    width: 100%;
+  }
+  }
   #font-grid a {
     text-decoration: none;
     color: black;
