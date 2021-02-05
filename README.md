@@ -4,16 +4,14 @@ This project was completed as part of the Chingu Explorer Program. This is a Fav
 
 Features
 
-- Eight different fonts to try your phrases on
-- Check out your text in four different font sizes
+- Search/Filter through fonts on landing page
+- Type any text and see them reflected in different fonts real time
+- Type your text in four different font sizes
 - Switch between light/dark mode in the application
 - Switch between grid and list view to make the content readable
 - Reload your page when you want to refresh your content
+- Responsive web and mobile layout
 
-ToDoList
-
-- Responsive Web Design
-- Working Search Bar
 Try this markdown:
 
 ![alt text](https://github.com/ach0319/Chingu-Favorite-Fonts-App/blob/master/Screenshot%20(3).png)
