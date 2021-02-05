@@ -1,4 +1,4 @@
-/* styling header */
+/* HEADER AND NAVIGATION */
 .grid-one {
   grid-area: header;
 }
@@ -21,14 +21,9 @@
   
   .sitename {
     font-weight: normal;
+    font-size: 2em;
+    display: block;
   }
-  /* styling nav bar */
-  #nav-bar {
-    position: relative;
-    right: 0;
-  
-  }
-  
   li {
     float: left;
     list-style-type: none;
@@ -39,8 +34,9 @@
     color: gray;
     font-weight: bold;
     text-decoration: none;
+    font-size: 1em;
   }
-  /* styling search bar */
+  /* SEARCH BAR */
   
   hr {
     display: block;
@@ -89,7 +85,7 @@
     border: 1px solid grey;
     border-radius: 20px;
    }
-  /* search box */
+  /* SEARCH/FILTER BOX */
   #fontsearch {
     margin-left: 20px;
     border: none;
@@ -97,7 +93,7 @@
     padding: 5%;
 
   }
-  /* type something */
+  /* TEXT INPUT BOX */
   #textInput {
     margin-left: 5px;
     border: none;
@@ -106,7 +102,7 @@
     padding: 5%;
 
   }
-  /* light/dark mode */
+  /* LIGHT/DARK MODE BUTTON */
   .dark {
     background-color: black;
     padding: 6px;
@@ -120,7 +116,7 @@
     color: white;
   }
   
-  /* font size changer */
+  /* FONT SIZE DROPDOWN */
   .dropbtn {
     background-color: white;
     color: black;
@@ -159,7 +155,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  /* list and grid view */
+  /* LIST AND GRID VIEW BUTTONS */
   button {
     display: inline-flex;
   }
@@ -186,31 +182,21 @@
     cursor: pointer;
     float: right;
   }
-  /* refresh button */
+  /* REFRESH BUTTON */
   .restore {
-    float: right;
+    float: center;
     border: none;
     background-color: white;
     position: relative;
     cursor: pointer;
   }
-  /* styling font grids */
-  @media screen and (min-width: 1135px) {
-  #font-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 75px;
-  }
-
-  .grid-1 {
-    width: 100%;
-  }
-  }
+  /* GRID CONTAINER FOR FONTS*/
+ 
   #font-grid a {
     text-decoration: none;
     color: black;
   }
-/* textarea styles */
+/* TEXTAREA STYLES */
   #font1 {
     font-family: Century Gothic;
     border: none;
@@ -319,11 +305,11 @@
     color: black;
   }
   
-/* individual font grid design */
+/* INDIVIDUAL FONT DESIGN FOR GRID */
 
 .grid {
   border-top: 1px solid gray;
-  width: 275px;
+  width: 100%;
 }
   
   label {
@@ -376,13 +362,13 @@
     bottom: 5px;
     z-index: 9;
   }
-  /* footer */
+  /* FOOTER */
   .devinfo {
     text-align: center;
     margin-top: 100px;
   }
 
-  /* Back to Top Button */
+  /* BACK TO TOP BUTTON */
   #myBtn {
     display: none;
     position: fixed;
@@ -404,4 +390,34 @@
   #myBtn:hover {
     background-color: black;
   }
+/* MEDIA QUERIES */
+
+   @media screen and (min-width: 1135px) {
+  #font-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 75px;
+
+  }
+
+  .grid-1 {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1026px) {
+ #hide-image {
+   display: none;
+ }
+  #nav-bar {
+    position: relative;
+    right: 0;
+    display: inline-block;
+  
+  }
+ 
+}
+
+
   

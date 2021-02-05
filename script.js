@@ -1,4 +1,4 @@
-/*search engine */
+/*SEARCH/FILTER BOX - ALLOWS YOU TO FILTER THROUGH FONTS ON LANDING PAGE */
 function myFunction() {
 var input, filter, ul, li, a, i, txtValue;
 input = document.getElementById('fontsearch');
@@ -17,11 +17,7 @@ for (i = 0; i < li.length; i++) {
   }
 }
 
-
-
-
-
-/* Type something input */
+/* INPUT BOX- ABLE TO TYPE TEXT AND SEE IT POP UP IN RESPECTIVE FONT BOXES*/
 function typesomething() {
     const input = document.getElementById("textInput");
     const output = document.getElementById("font1");
@@ -43,7 +39,7 @@ function typesomething() {
     output8.value = input.value;
 
   }
-  /*change font size */
+  /*FONT SIZE DROPDOWN- ALLOWS YOU TO CHANGE FONT SIZE OF INPUT */
   const output = document.getElementById("font1");
   const output1 = document.getElementById("font2");
   const output2 = document.getElementById("font3");
@@ -97,13 +93,13 @@ function typesomething() {
     output7.style.fontSize = "40px";
     output8.style.fontSize = "40px";
   }
-  /* dark/light mode */
+  /* TOGGLE THROUGH DARK AND LIGHT MODE */
   
   function darkFunction() {
     document.body.classList.toggle("dark-mode");
   }
   
-  /* list-grid view */
+  /* LIST/GRID VIEW BUTTON */
   function listView() {
     document.getElementById("font-grid").style.gridTemplateColumns = "5000px";
   }
@@ -113,7 +109,7 @@ function typesomething() {
       "auto auto auto auto ";
   }
   
-  /* back to top button */
+  /* BACK TO TOP BUTTON */
   mybutton = document.getElementById("myBtn");
   
   window.onscroll = function () {
