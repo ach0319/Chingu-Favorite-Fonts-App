@@ -13,6 +13,7 @@
   grid-template-areas:
    'header nav';
   align-items: center;
+  
 }
 #header {
     color: gray;
@@ -22,7 +23,7 @@
   .sitename {
     font-weight: normal;
     font-size: 2em;
-    display: block;
+    display: inline-flex;
   }
   li {
     float: left;
@@ -35,6 +36,10 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 1em;
+  }
+
+  #nav-bar {
+    display: inline-flex;
   }
   /* SEARCH BAR */
   
